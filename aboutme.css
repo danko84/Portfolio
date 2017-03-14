@@ -1,0 +1,84 @@
+
+div {
+  position: relative;
+  font-family: 'Handlee', cursive;
+  text-align: center;
+  margin: 0 0 30px 0;
+}
+.text {
+	margin: 40px 0 0 0;
+	
+}
+.rugby {
+  background: url("../image/rugby_2.jpg");
+  background-repeat: no-repeat;
+  left: 19%;
+  margin: 40px 25px 0 5px;
+  width: 400px;
+  height: 222px;
+  position: absolute;
+}
+.guitar {
+	background: url("../image/guitar_2.jpg");
+  background-repeat: no-repeat;
+  /* left: 50%; */
+  right: 19%;
+  margin: 40px 5px 0 15px;
+  width: 400px;
+  height: 222px;
+  position: relative;
+  float: right;
+}
+p {
+  color: rgba(255,255,255,1);
+  background-color: black;
+  background: linear-gradient(bottom,rgba(0,0,0,1), rgba(0,0,0,0.4));
+  background: -webkit-linear-gradient(bottom, rgba(0,0,0,1), rgba(0,0,0,.4));
+  background: -moz-linear-gradient(bottom, rgba(0,0,0,1), rgba(0,0,0,.4));
+  padding: 10px;
+  line-height: 18px;
+  text-align: justify;
+  position: absolute;
+  bottom: 0;
+  margin: 0;
+  height: 30px;
+  transition: height .5s;
+  -webkit-transition: height .5s;
+  -moz-transition: height .5s;
+}
+small {
+  opacity: 0;
+}
+.show-description p {
+  height: 68px;
+}
+.show-description small {
+  opacity: 1;
+}
+.clear {
+	clear: both;
+}
+
+@media screen and (max-width: 696px) {
+	div {
+		font-family: "Calibri Light", Arial, sans-serif;
+	}
+	
+	.rugby {
+		position: relative;
+		left: 0%;
+		margin: 10px 10px 30px 10px;
+		width: 300px;
+		height: 222px;
+		background-size: cover;
+	}
+	.guitar {
+		position: relative;
+		left: 0%;
+		float: none;
+		margin: 10px;
+		width: 300px;
+		height: 222px;
+		background-size: cover;
+	}
+}

@@ -1,0 +1,56 @@
+h1 {
+	text-align: center;
+	margin: 40px;
+	font-family: 'Oswald', sans-serif;
+}
+ul {
+	list-style-type: none;
+	margin: 0 auto;
+	padding: 0px;
+	position: relative;
+	text-align: center;
+
+	}
+li {
+	display: inline;
+	font-family: 'Oswald', sans-serif;
+	}
+.menu {
+	text-decoration: none;
+	color: black;
+	border-bottom: 3px solid black;
+}
+.menu:hover {
+	color: blue;
+	border-bottom: 3px solid orange;
+}
+footer {
+	text-align: center;
+	padding: 40px;
+	font-family: 'Oswald', sans-serif;
+	font-size: 1.2em;
+}
+a {
+	text-decoration: none;
+	color: black;
+}
+.mail:hover {
+	text-decoration: none;
+	color: blue;
+}
+
+@media screen and (max-width: 696px) {
+	body {
+		font-family: "Calibri Light", Arial, sans-serif;
+	}
+	
+	li {
+		font-size: 1.7em;
+		margin: 5px;
+	}
+	
+	footer {
+		font-size: 1.2em;
+		padding-left: 0px
+	}
+}

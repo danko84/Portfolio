@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="UTF-8">
+		<meta name="description" content="Daniel Toth Portfolio">
+		<meta name="author" content="Daniel Toth">
+		<meta name="viewport" content="width=device-width, initial-scale=1.0">
+		<title>Dan's Portfolio</title>
+		<script src="http://code.jquery.com/jquery-latest.js"></script>
+		<link rel="stylesheet" type="text/css" href="css/header.css" />
+		<link rel="stylesheet" type="text/css" href="css/aboutme.css" />
+		<!-- <link rel="stylesheet" type="text/css" href="footer.css" /> -->
+		<link href="https://fonts.googleapis.com/css?family=Oswald" rel="stylesheet">
+	</head>
+	<body>
+		<header>
+			<a href="index.html"><h1>Welcome to my portfolio!</h1></a>
+			<ul>
+				<li><a href="portfolio.html" class="menu">Portfolio</a></li>
+				<li><a href="aboutme.html" class="menu">About Me</a></li>
+			</ul>
+		</header>
+		<article>
+			<div class="text">
+				<h2>Here are my hobbies:</h2>
+			</div>
+			<div class="rugby">
+			<p>Rugby<br /><small>I play rugby with the UCS Old Boys RFC. I'm a team player but if I have to carry the ball... I do it. (No, it was not a knock on...)</small></p>
+			</div>
+			<div class="guitar"><p>Guitar<br /><small>I like the sound of the guitar. I'm not a pro but I enjoy to play on it.</small></p>
+			</div>
+			<div class="clear"></div>
+		</article>
+		<footer>
+			contact:<a class="mail" href="mailto:tothdaniel84@gmail.com">tothdaniel84@gmail.com</a>
+		</footer>
+		<script>
+		$('div').on('click', function() {
+			$(this).toggleClass('show-description');
+		});
+	</script>
+	</body>
+</html>
